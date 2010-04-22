@@ -1,0 +1,5 @@
+<% form_for @project do |form| %>
+  <p><%= form.label :name %> <%= form.text_field :name %></p>
+  <p><%= form.label :description %> <%= form.text_field :description %></p>
+  <%= submit_tag "Create" %>
+<% end %>

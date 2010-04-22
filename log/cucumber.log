@@ -1,0 +1,523 @@
+  [4;36;1mProject Delete all (0.5ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 11:28:06) [GET]
+Rendering projects/new
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 11:28:06) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2010-04-21 11:28:06) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:23:55) [GET]
+Rendering projects/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:23:55) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:23:55', '2010-04-21 16:23:55', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 7ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:23:55) [GET]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 12:23:55) [GET]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:33:33) [GET]
+Rendering projects/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:33:33) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:33:33', '2010-04-21 16:33:33', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 6ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:33:33) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 12:33:33) [GET]
+  [4;36;1mProject Delete all (0.6ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:34:32) [GET]
+Rendering projects/new
+Completed in 16ms (View: 13, DB: 1) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:34:32) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (1.2ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:34:32', '2010-04-21 16:34:32', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 9ms (DB: 1) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:34:32) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:35:14) [GET]
+Rendering projects/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:35:14) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:35:14', '2010-04-21 16:35:14', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 8ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:35:14) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:39:17) [GET]
+Rendering projects/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:39:17) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:39:17', '2010-04-21 16:39:17', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 7ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:39:17) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:39:43) [GET]
+Rendering projects/new
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:39:43) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:39:43', '2010-04-21 16:39:43', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 7ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:39:43) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:40:38) [GET]
+Rendering projects/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:40:38) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:40:38', '2010-04-21 16:40:38', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 7ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:40:38) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:41:04) [GET]
+Rendering projects/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:41:04) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:41:04', '2010-04-21 16:41:04', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 7ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:41:04) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:42:05) [GET]
+Rendering projects/new
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:42:05) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:42:05', '2010-04-21 16:42:05', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 6ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:42:05) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-21 12:42:05) [GET]
+  [4;36;1mProject Delete all (0.5ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:42:34) [GET]
+Rendering projects/new
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:42:34) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:42:34', '2010-04-21 16:42:34', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 6ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:42:34) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering projects/index
+Rendered projects/_project (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:44:14) [GET]
+Rendering template within layouts/tadao
+Rendering projects/new
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:44:14) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:44:14', '2010-04-21 16:44:14', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 8ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:44:14) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/tadao
+Rendering projects/index
+Rendered projects/_project (0.4ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:44:39) [GET]
+Rendering template within layouts/tadao
+Rendering projects/new
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:44:39) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.2ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:44:39', '2010-04-21 16:44:39', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 3ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:44:39) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/tadao
+Rendering projects/index
+Rendered projects/_project (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:48:30) [GET]
+Rendering template within layouts/tadao
+Rendering projects/new
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:48:30) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.2ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:48:30', '2010-04-21 16:48:30', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 2ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:48:30) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/tadao
+Rendering projects/index
+Rendered projects/_project (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:50:46) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:50:46) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:50:46', '2010-04-21 16:50:46', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 3ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:50:46) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (0.5ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:54:03) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:54:03) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:54:03', '2010-04-21 16:54:03', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 3ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:54:03) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:56:05) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 20ms (View: 16, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:56:05) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.2ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:56:05', '2010-04-21 16:56:05', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 3ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:56:05) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;35;1mProject Create (0.6ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:56:05', '2010-04-21 16:56:05', NULL)[0m
+REQUESTING PAGE: GET /projects with {} and HTTP headers {}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:56:05) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (0.1ms)
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 12:58:35) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 20ms (View: 15, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 12:58:35) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:58:35', '2010-04-21 16:58:35', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 3ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:58:35) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (0.4ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;35;1mProject Create (0.3ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 16:58:35', '2010-04-21 16:58:35', NULL)[0m
+REQUESTING PAGE: GET /projects with {} and HTTP headers {}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 12:58:35) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (0.1ms)
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 13:00:14) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 13:00:14) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.2ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 17:00:14', '2010-04-21 17:00:14', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 2ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 13:00:14) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (1.0ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;35;1mProject Create (0.5ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 17:00:14', '2010-04-21 17:00:14', NULL)[0m
+REQUESTING PAGE: GET /projects with {} and HTTP headers {}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 13:00:14) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (1.1ms)
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://www.example.com/projects]
+REQUESTING PAGE: GET /projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 13:00:14) [GET]
+  [4;35;1mProject Load (0.2ms)[0m   [0mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (0.3ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;36;1mProject Delete all (0.4ms)[0m   [0;1mDELETE FROM "projects" WHERE 1=1[0m
+REQUESTING PAGE: GET /projects/new with {} and HTTP headers {}
+
+
+Processing ProjectsController#new (for 127.0.0.1 at 2010-04-21 13:02:05) [GET]
+Rendering template within layouts/application
+Rendering projects/new
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://www.example.com/projects/new]
+REQUESTING PAGE: POST /projects with {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}} and HTTP headers {"HTTP_REFERER"=>"/projects/new"}
+
+
+Processing ProjectsController#create (for 127.0.0.1 at 2010-04-21 13:02:05) [POST]
+  Parameters: {"commit"=>"Create", "project"=>{"name"=>"Tadao", "description"=>"An awesome todo list application built by even awesomer job seekers"}}
+  [4;35;1mProject Create (0.2ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 17:02:05', '2010-04-21 17:02:05', 'An awesome todo list application built by even awesomer job seekers')[0m
+Redirected to http://www.example.com/projects
+Completed in 2ms (DB: 0) | 302 Found [http://www.example.com/projects]
+REQUESTING PAGE: GET http://www.example.com/projects with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 13:02:05) [GET]
+  [4;36;1mProject Load (0.3ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (1.5ms)
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/projects]
+  [4;35;1mProject Create (0.4ms)[0m   [0mINSERT INTO "projects" ("name", "created_at", "updated_at", "description") VALUES('Tadao', '2010-04-21 17:02:05', '2010-04-21 17:02:05', NULL)[0m
+REQUESTING PAGE: GET /projects with {} and HTTP headers {}
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2010-04-21 13:02:05) [GET]
+  [4;36;1mProject Load (0.2ms)[0m   [0;1mSELECT * FROM "projects" [0m
+Rendering template within layouts/application
+Rendering projects/index
+Rendered projects/_project (1.8ms)
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://www.example.com/projects]
+REQUESTING PAGE: GET /projects/1?method=delete with {} and HTTP headers {"HTTP_REFERER"=>"/projects"}
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2010-04-21 13:02:06) [GET]
+  Parameters: {"method"=>"delete", "id"=>"1"}
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-04-21 13:02:06) [GET]
+  Parameters: {"method"=>"delete", "id"=>"1"}
