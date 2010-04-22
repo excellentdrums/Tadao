@@ -2,3 +2,6 @@ log/*.log
 tmp/**/*
 doc/api
 doc/app
+rerun.txt
+db/*.sqlite3
+config/database.yml
